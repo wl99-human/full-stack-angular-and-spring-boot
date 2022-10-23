@@ -1,7 +1,7 @@
-var sportsTwo = ["Gold", "Cricket", "Tennis"];
+"use strict";
+let sportsTwo = ["Gold", "Cricket", "Tennis"];
 sportsTwo.push("Baseball");
 sportsTwo.push("Fulbol");
-for (var _i = 0, sportsTwo_1 = sportsTwo; _i < sportsTwo_1.length; _i++) {
-    var tempSport = sportsTwo_1[_i];
+for (let tempSport of sportsTwo) {
     console.log(tempSport);
 }
