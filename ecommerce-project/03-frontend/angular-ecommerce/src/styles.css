@@ -556,7 +556,10 @@ input.au-input.au-input-xl{
     font-size:15px;
     padding-bottom:0;
     font-weight:500;
-    color:#585858
+    color:#585858;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
 }
 
 /* 
